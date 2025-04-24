@@ -42,6 +42,6 @@ public partial class SpacetimeDbNetworkManager : Node
         }
     }
 
-    public override void _Process(double delta) => ForEachConnection(conn => conn.FrameTick());
+    public override void _PhysicsProcess(double delta) => ForEachConnection(conn => conn.FrameTick());
     public override void _ExitTree() => ForEachConnection(conn => conn.Disconnect());
 }
