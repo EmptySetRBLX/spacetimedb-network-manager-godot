@@ -1,5 +1,5 @@
-# spacetimedb-network-manager-godot
-Networkmanager script to use with Godot for SpacetimeDB
+# SpacetimeDB Network Manager for Godot 4.4+
+Networkmanager script to use with Godot for SpacetimeDB. Equivalent to the one used in the Unity Tutorial: https://spacetimedb.com/docs/unity/part-1
 
 Add to your Autoloads if you want to add/remove connections via GDScript.
 
