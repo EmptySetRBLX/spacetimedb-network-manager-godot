@@ -14,6 +14,7 @@ public partial class SpacetimeDbNetworkManager : Node
     public override void _Ready()
     {
        Instance = this;
+	   Console.SetOut(new GodotWriter());
     }
 
     public bool AddConnection(IDbConnection conn)
